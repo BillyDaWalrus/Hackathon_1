@@ -23,6 +23,7 @@ def map_Wendys(name=None):
 def map_KFC(name=None):
     return render_template('website_page_kfc.html', name=name)
 
+<<<<<<< HEAD
 @app.route('/Arbys/')
 @app.route('/map/website_page_arbys.html/')
 def map_KFC(name=None):
@@ -43,5 +44,7 @@ def map_KFC(name=None):
 def map_KFC(name=None):
     return render_template('website_page_chuck.html', name=name)
 
+=======
+>>>>>>> 5ab37c90ae79a07fb9c30f0ce8c2c7ba6275a343
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
